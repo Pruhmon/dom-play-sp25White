@@ -1,33 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Title Goes Here</title>
+     <title>Assignments</title>
   <meta charset="utf-8" />
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
+<style>
+    /* .hamlet{
+        background-color: yellow;
+    } */
+
+    /* div#play span{
+        background-color: blue;
+    } */
+
+</style>
  </head>
  <body>
      <header>
-     <h1>Title Goes Here</h1>
+     <h1>Projects</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="#" target="_blank">Name of project goes here</a>
+            <a href="#" target="_blank">DOM Play</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
      </header>
      
    <main class="wrapper">
-    <p>Content goes here</p>
+        <div id="play">
+            <p><strong>Assignment Overview:</strong></p>
+            <p>
+                This page is part of an interactive project where we explore DOM manipulation in HTML and CSS. The main goal is to dynamically display a dialogue from a scene, with each character's lines tagged with a <code>data-actor</code> attribute. This allows us to easily apply styles or interact with the page based on the characters or actions.
+            </p>
+            <p>
+                The project involves understanding how to structure and manipulate content, as well as how to leverage custom attributes to represent metadata for each element. In this case, the page displays lines from a script with characters speaking in a play or performance, making it a useful tool for simulating a script reader or an interactive story.
+            </p>
+            <p><strong>Script Interactive:</strong></p>
+            <p><span data-actor="mohamed">MOHAMED: So... you’re Xenu. The infamous space overlord of galactic imprisonment?</span></p>
+
+            <p><span data-actor="xenu">XENU (smirking): And you're Mohamed. Prophet of the desert. Messenger of divine order. We’ve both got titles.</span></p>
+            
+            <p><span data-actor="mohamed">MOHAMED: Titles mean nothing without truth. What exactly do you offer your followers?</span></p>
+            
+            <p><span data-actor="xenu">XENU: Enlightenment through science and spirit. Freedom from trauma. We unlock the Thetan within.</span></p>
+            
+            <p><span data-actor="mohamed">MOHAMED: With e-meters and fees? Truth shouldn’t require a credit card.</span></p>
+            
+            <p><span data-actor="xenu">XENU: And what do *you* offer? Prayers? Submission? Rules written in the sand?</span></p>
+            
+            <p><span data-actor="mohamed">MOHAMED: Discipline. Unity. Compassion. A way of life grounded in service and sincerity—not galactic warfare and volcanoes.</span></p>
+            
+            <p><span data-actor="xenu">XENU: Humans need spectacle to believe. Stories that blast through the mind like comets. I give them cosmic scale.</span></p>
+            
+            <p><span data-actor="mohamed">MOHAMED: And I give them purpose. A connection not to memory implants, but to each other. To something greater than either of us.</span></p>
+            
+            <p><span data-actor="action">A pause. Xenu studies him, floating ever so slightly above the ground, cape billowing in silent wind.</span></p>
+            
+            <p><span data-actor="xenu">XENU: Perhaps... your methods work for Earth. But the stars still remember me.</span></p>
+            
+            <p><span data-actor="mohamed">MOHAMED: Let them remember. I’d rather be written in hearts than on cosmic prison walls.</span></p>
+            
+            <p><span data-actor="action">They stare at each other—two leaders, two legacies. One grounded. One adrift in space.</span></p>
+            
+            <p><span data-actor="xenu">XENU (grinning): We should do this again sometime.</span></p>
+            
+            <p><span data-actor="mohamed">MOHAMED (smiling slightly): Only if you come back down to Earth.</span></p>
+            
+        </div>
      <footer>
-      <p><small>&copy; 2021 by 
-          YOUR NAME HERE, All Rights Reserved ~ 
-          <a id="html-checker" href="#">Check HTML</a> ~ 
-          <a id="css-checker" href="#">Check CSS</a></small>
-     </p>
+        <p><small>&copy; 2025 by 
+            Praman White, All Rights Reserved ~ 
+            <a id="html-checker" href="#">Check HTML</a> ~ 
+            <a id="css-checker" href="#">Check CSS</a></small>
+        </p>
     </footer>
   </main>
   <script src="js/main.js"></script>
+  <script src="js/dom-play.js"></script>
  </body>
 </html>
